@@ -20,4 +20,11 @@
     <item name="android:textSize">@dimen/calendar_text_medium</item>
     <item name="android:textStyle">bold</item>
   </style>
+
+  <style name="CalendarCell.Footertext">
+    <item name="android:textSize">@dimen/calendar_text_ultra_small</item>
+    <item name="android:textColor">@color/calendar_text_active</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
 </resources>

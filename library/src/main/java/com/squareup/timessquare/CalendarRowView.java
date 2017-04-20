@@ -91,7 +91,7 @@ public class CalendarRowView extends ViewGroup implements View.OnClickListener {
 
   public void setCellBackground(int resId) {
     for (int i = 0; i < getChildCount(); i++) {
-      getChildAt(i).setBackgroundResource(resId);
+      ((CalendarCellView) getChildAt(i)).setDateBackground(resId);
     }
   }
 
